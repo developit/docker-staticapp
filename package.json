@@ -1,0 +1,31 @@
+{
+  "name": "docker-staticapp",
+  "version": "0.1.0",
+  "description": "A docker container for hosting a static website using Node.JS + express, with a nifty environment variable proxy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/developit/docker-staticapp.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "public",
+    "express"
+  ],
+  "author": "Jason Miller <jason@developit.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developit/docker-staticapp/issues"
+  },
+  "homepage": "https://github.com/developit/docker-staticapp",
+  "dependencies": {
+    "compression": "^1.0.8",
+    "express": "^4.4.4",
+    "serve-static": "^1.2.3"
+  }
+}
